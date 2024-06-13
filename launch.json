@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Serial Communication",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "$/Dokumente/pt/CAN_Loopback_Test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "$/Dokumente/pt/CAN_Loopback_Test",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
